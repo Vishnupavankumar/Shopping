@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fashion-online-shopping</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+</head>
+<style>
+  .border{
+    border-radius: 100px;
+    height: 40px;
+  }
+  #signin{
+    height: 30px;
+    padding-bottom: 30px;
+    border-radius:50px ;
+  
+  }
+#second{
+  margin-top: 80px;
+  margin-right: 250px;
+  
+}
+#mainbg{
+  background: url(../images/h1_hero.jpg);
+  height: 500px;
+}
+#carts{
+  display: flex;
+}
+#man{
+  background: url(/images/card.png);
+  margin-top: 500px;
+  background-repeat: no-repeat;
+  
+}
+.blue1{
+  background: url(/images/latest-offer.png);
+  height: 300px;
+}
+.jacket{
+  margin-top: -900px;
+}
+
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary " >
+    <div class="container-fluid" style="background-color: black;">
+      <a class="navbar-brand" href="#" ><img src="../images/header_icon.png" alt="flag" style="width: 50px; height: 30px;"></a>
+      <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+        <a class="nav-link text-white" href="#">IND</a>
+      
+      <i class="fa-solid fa-angle-down text-white p-2"></i>
+
+          <div class=".container text-white" style="padding: 5px; margin-left: 50px;"> +919963905922</div>
+
+      <div class="collapse navbar-collapse" id="navbarNav" >
+        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll --bs--scroll" >
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#" >My account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">wishlist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">shopping</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">cort</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">check out</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 ">
+    <div class="container-fluid">
+      <a class="navbar-brand p-0 height-10" href="#"><img src="https://www.achieversit.com/assets/images/logo-white.png" alt="achieversit"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item"> 
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+              <li>
+                <a class="nav-link active" aria-current="page" href="#">catagori</a></li>
+              <li><a class="nav-link active" aria-current="page" href="#">latest</a></li>
+              <small><span  style="background-color:rgba(255, 0, 0, 0.742);border-radius: 40px;color: white; margin-left: -10px; margin-top: 20px; padding: 3px;">HOT</span></small>
+              <li><hr class="nav-link active"></li>
+              <li><a class="nav-link active" href="#">blog</a></li>
+            <a class="nav-link disabled" aria-disabled="true">contact</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-auto " role="search">
+          <input class="border mt-1" type="search" placeholder="Search " aria-label="Search">
+          <a href="#"><i style="color: black; margin-left: -30px; margin-top:20px;" class="fa-solid fa-magnifying-glass fa-lg "></i></a>
+                  <i id="icon1" class="fa-solid fa-heart fa-lg border border-2 mt-1" style="padding: 15px; border-radius: 60%; height: 5px; " ></i>
+                  <small><span  style="background-color:rgb(5, 181, 239);border-radius: 50px;color: white; margin-left: -15px; margin-top: 20px; padding: 3px;">o2</span></small>
+                  <i id="icon1" class="fa-solid fa-cart-shopping fa-lg border mt-1" style="padding: 15px; border-radius: 60%; height: 5px; width: 40pxpx;"></i>
+                  <small><span  style="background-color:rgb(5, 181, 239);border-radius: 50px;color: white; margin-left: -15px; margin-top: -20px; padding: 3px;">o2</span></small>
+          <button id="signin" type="button" class="btn btn-primary width-20px mt-1 ">signin</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class=" container-fluid text-center" id="mainbg">
+    <div class="row">
+      <div class="col">
+        <img  src="../../images/hero_man.png " alt="logo" style="height: 460px; margin-top:40px;"/>
+      </div>
+      <div  class="col" id="second">
+       <h4 style="color: lightskyblue; font-family: cursive; font-style:italic ; ">60% Discount</h4>
+       <strong><h1 style="font-size: 100px; font-family: 'Times New Roman', Times, serif; font-weight: bold;    ">Winter</h1></strong>
+       <h1 style="font-size: 100px;font-family: 'Times New Roman', Times, serif; font-weight: bold;">Collection</h1>
+       <p>Best cloth collection by 2020!</p>
+       <button id="signin" type="button" class="btn btn-primary width-20px  ">shopnow</button>
+      </div>
+      </div>
+  </div>
+  <section class="sad">
+  <h4 style="font-weight: bold; font-family: 'Times New Roman', Times, serif; margin-top: 80px; font-size: 60px;margin-left: 300px;">Shop by Category</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 22rem;">
+          <img src="../images/cat1.jpg" class="card-img-top" alt="...">
+          <div class="card-img-overlay" style="margin-left: 180px; font-size: 20px;">
+            <h5>Women's</h5>
+            <button class="bg-warning" style="border-radius: 50px; background-color:gold; font-size: 15px; font-weight: bolder;">Best new deals</button>
+            <p class="card-text" style=" font-family: Yellowtail, cursive;color: blue; text-shadow: 0px -5px 0px white ; margin-top: -13px;" >New Collection</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 22rem;">
+          <img src="/images/cat2.jpg" class="card-img-top" alt="...">
+          <div class="card-img-overlay" style="margin-left: 100px; margin-left: 180px;">
+            <h5 style="font-family: Yellowtail, cursive;color: blue; text-shadow: 0px -5px 0px white ;">Discount</h5>
+             <p style="font-family:'Times New Roman', Times, serif; font-size: 22px;">Winter Cloth</p>
+           <p>New Collection</p>
+             
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 22rem;">
+          <img src="/images/cat3.jpg" class="card-img-top" alt="...">
+          <div class="card-img-overlay"style="margin-left: 180px;">
+            <h5 class="card-title">Man'S Cloth</h5>
+             <button style="border-radius: 50px;;font-weight: bolder; background-color:gold;">Best new deals</button>
+            <p class="card-text" class="card-text" style="font-family: Yellowtail, cursive;color: blue; text-shadow: 0px -5px 0px white ; margin-top: -10px; font-size: 20px; " >New Collection</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <nav class="navbar navbar-expand-lg mt-5" style="border-bottom:2px solid black ;">
+    <div class="container-fluid">
+      <a class="navbar-brand " style="font-size:30px ; font-family: 'Times New Roman', Times, serif;" href="#"><b>Latest Products</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <div style="display: flex; margin-right: 100px;">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style="color: red;" href="#">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Featured</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Offer</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </nav>
+  <section class="container">
+  <div class="card-group" style=" display: flex; gap: 90px; margin-top: 20px; border: 0;">
+    <div class="card" > 
+       
+      <img src="/images/product1.png" class="card-img-top" alt="...">
+      <small><span class="new" style="background-color:rgba(255, 0, 0, 0.742);color: white; padding: 3px; margin-left: 20px;position: absolute; margin-top: -320px; width: 50px;">new</span></small>
+      <div class="card-body">
+        
+        <i class="fa-regular fa-star" style="color: gold;"></i>
+        <i class="fa-regular fa-star"style="color: gold;"></i>
+        <i class="fa-regular fa-star"style="color: gold;"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <p class="card-text">Green dress with detail</p></div>
+        <i class="fa-solid fa-dollar-sign" style="margin-top:-10px">40.00</i>
+        <i class="fa-solid fa-dollar-sign" style="color: red; margin-left: 90px; margin-top:-10px;"><strike>60.00</strike></i>
+    </div>
+    <div class="card">
+      <img src="/images/product2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <i class="fa-regular fa-star" style="color: gold;"></i>
+        <i class="fa-regular fa-star"style="color: gold;"></i>
+        <i class="fa-regular fa-star"style="color: gold;"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <p class="card-text">Green dress with detail</p>
+        <i class="fa-solid fa-dollar-sign">40.00</i>
+        <i class="fa-solid fa-dollar-sign" style="color: red; margin-left: 20px;"><strike>60.00</strike></i>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/images/product3.png" class="card-img-top border-0" alt="...">
+      <small><span class="new" style="background-color:rgba(255, 0, 0, 0.742);color: white; padding: 3px; margin-left: 20px;position: absolute; margin-top: -320px; width: 50px;">new</span></small>
+      <div class="card-body">
+        <i class="fa-regular fa-star" style="color: gold;"></i>
+        <i class="fa-regular fa-star" style="color: gold;"></i>
+        <i class="fa-regular fa-star" style="color: gold;"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <p class="card-text">Green dress with detail</p>
+        <i class="fa-solid fa-dollar-sign">40.00</i>
+        <i class="fa-solid fa-dollar-sign" style="color: red; margin-left: 20px;"><strike>60.00</strike></i>
+      </div>
+    </div>
+  </div>
+<section class="cardsa" style="display: flex; gap: 90px;margin-top: 20px; height: 80px ">
+  <div class="card" >
+    <img src="/images/product4.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <i class="fa-regular fa-star" style="color: gold;"></i>
+      <i class="fa-regular fa-star" style="color: gold;"></i>
+      <i class="fa-regular fa-star" style="color: gold;"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <p class="card-text">Green dress with detail</p>
+      <i class="fa-solid fa-dollar-sign">40.00</i>
+      <i class="fa-solid fa-dollar-sign" style="color: red; margin-left: 20px;"><strike>60.00</strike></i>
+  </div>
+</div>
+  <div class="card">
+    <img src="/images/product5.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <i class="fa-regular fa-star" style="color: gold;"></i>
+      <i class="fa-regular fa-star" style="color: gold;"></i>
+      <i class="fa-regular fa-star" style="color: gold;"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <p class="card-text">Green dress with detail</p>
+      <i class="fa-solid fa-dollar-sign">40.00</i>
+      <i class="fa-solid fa-dollar-sign" style="color: red; margin-left: 20px;"><strike>60.00</strike></i>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/images/product6.png" class="card-img-top" alt="...">
+    <small><span class="new" style="background-color:rgba(255, 0, 0, 0.742);color: white; padding: 3px; margin-left: 20px;position: absolute; margin-top: -320px; width: 50px;">new</span></small>
+    <div class="card-body">
+      <i class="fa-regular fa-star" style="color: gold;"></i>
+      <i class="fa-regular fa-star" style="color: gold;"></i>
+      <i class="fa-regular fa-star" style="color: gold;"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <p class="card-text">Green dress with detail</p>
+      <i class="fa-solid fa-dollar-sign">40.00</i>
+      <i class="fa-solid fa-dollar-sign" style="color: red; margin-left: 20px;"><strike>60.00</strike></i>
+    </div>
+  </div>
+
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section class="container-fluid">
+<div class="container-fluid mt-5 mb-1" id="man">
+  <div class="row">
+    <div class="col">
+      <img src="/images/card-man.png" alt="" style="height:580px; margin-left:250px; ">
+    </div>
+    <div class="col" style=" margin-top:100px; ">
+     <h5 style="font-style: italic; color:
+     rgb(5, 181, 239); font-weight: 400px;"></h5>
+   <h2 style="font-weight:400px ; font-size:60px; font-family: 'Times New Roman', Times, serif; margin-left: 0%; "><b>Find The Best Product <br>from Our Shop </b></h2>
+   
+   <h6 style=" font-family: 'Times New Roman', Times, serif;">Designer Who are interesten creating state ofthe</h6><br>
+   <button class="btn btn-dark rounded-pill " type="submit"  style="width:150px;">Shop Now</button>
+   <img src="/images/card-shape.png" alt="" style="margin-left: 100px;">
+    </div>
+</div>
+</div>
+</section> 
+<div class="card" style="width: 18rem; margin-left: 400px; height: 150px; margin-top: 100px; border: none;" >
+  <img src="/images/collection2.png" class="card-img-top" alt="..." >
+  <div class="card-body">
+   
+  </div>
+</div> 
+     <h4 style="font-weight: bold; font-family: 'Times New Roman', Times, serif; padding: 10px; font-size: 30px; margin-top: -100px;">Best Collection  </h4>
+       <h4 style="font-weight: bold; font-family: 'Times New Roman', Times, serif; padding:3px; margin-left: 10px; font-size: 30px;" >Of This Month</h4>
+      <h5 style="padding: 10px;">Designers Who Are Interesten crea.</h5>
+      <button type="button" class="btn btn-primary" style="border-radius: 50px; margin-top: 60px; margin-left: 60px;">shopnow</button>
+      <br>
+      <div>
+      <img src="/images/collection1.png" alt="" style="width: 200px; margin-left: 60px; margin-top:130px ;">
+      <h5 style="margin-left:790px; margin-top: -200px;">Menz Winter Jacket</h5>
+      </div>
+       <button type="button" class="btn btn-primary" style="border-radius: 50px; margin-top: 60px; margin-left: 780px; margin-top: 100px; ">Men'z Winter Jacket</button>
+       <div> 
+       <h5 style="margin-left:790px; margin-top: 50px;">Menz Winter Jacket</h5>
+       <img src="/images/collection3.png" alt="" style="margin-left:1000px;margin-top: -600px;">
+      </div>  
+       <img src="/images/collection4.png" alt="" style="margin-left:1000px;margin-top: -400px;">
+       <img src="/images/collection5.png" alt=""style="margin-left:1000px;margin-top: -200px;">
+       
+    </div>
+  </div>
+</div>
+<div class="blue1">
+  
+<h1 style="margin-left: 200px;  padding: 2px;font-family: 'Times New Roman', Times, serif; margin-top: 200px;">Get Our </h1>
+<h1 style="margin-left: 200px; font-family: 'Times New Roman', Times, serif; margin-top: 20px;">Latest Offers News</h1>
+<h5 style="margin-left: 200px; padding: 5px; margin-top: 20px;">Subscribe News Letter</h5>
+<input type=" text" placeholder=" your email here" style="border-radius: 20px; margin-left: 600px; width: 200px; height: 35px; border: none;">
+<button type="button" class="btn btn-primary" style="border-radius: 50px; height: 35px; margin-left: -60px;margin-bottom: 7px; ">shopnow</button>
+
+</div>
+<div class="card-group">
+  <div class="card mt-5 border-0">
+    
+    <div class="card-body " style="border:none;">
+      <i class="fa-solid fa-box" style="font-size: 30px; "></i>
+      <h5 class="card-title" style="margin-top: 20px;">Free Shipping Method</h5>
+      <p class="card-text">aorem ixpsacdolor </p>
+      <p> ameasecur adipising elitsf </p>
+      <p>edasd.</p>
+    </div>
+    
+  </div>
+  <div class="card mt-5 border-0">
+    
+    <div class="card-body" >
+      <i class="fa-solid fa-lock-open" style=" font-size: 30px;"></i>
+      <h5 class="card-title" style="margin-top: 20px;">Secure Payment System</h5>
+      <p class="card-text" style="padding:2px;">aorem ixpsacdolor sit </p>
+      <p>sameasecur adipising elitsf </p>
+      <p>edasd.</p>
+    </div>
+    
+  </div>
+  <div class="card mt-5 border-0">
+    <div class="card-body">
+      <i class="fa-solid fa-arrows-rotate" style="font-size: 30px;"></i>
+      <h5 class="card-title" style="margin-top: 20px;">Secure Payment System</h5>
+      <p class="card-text">aorem ixpsacdolor sit </p>
+      <p> ameasecur adipising elitsf </p>
+      <p>edasd.</p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid" style="display: flex; margin-top: 100px;">
+  <img src="/images/gallery1.jpg"alt="" style="width: 220px;">
+  <img src="/images/gallery2.jpg" alt="" style="width: 220px;">
+  <img src="/images/gallery3.jpg" alt=""style="width: 220px;">
+  <img src="/images/gallery4.jpg" alt=""style="width: 220px;">
+  <img src="/images/gallery5.jpg" alt=""style="width: 220px;">
+</div>
+<div class="container text-center mt-5">
+  <div class="row">
+    <div class="col"><img src="/images/logo-white.png" alt="">
+      <p>63,first flooe , 16th main,8th cross</p>
+      <p>BTM 1st stage,BTM layout</p>
+      <p>Bengaluru,karnataka 560029</p>
+    </div>
+    <div class="col">
+      <h3>Queck Links</h3>
+      <p>About</p>
+      <p>offer & discount</p>
+      <p>get coupon</p>
+      <p>contact us</p>
+    </div>
+    <div class="col">
+      <h3>New Products</h3>
+      <p>women cloth</p>
+      <p>fashion accessorios</p>
+      <p>man accessorios</p>
+      <p>rubber made toys</p>
+    </div>
+    <div class="col">
+      <h3>Support</h3>
+      <p>terms&conditions</p>
+      <p>privacy policy</p>
+       <p>privacy policy </p>
+       <p>report a payment issue</p>
+    </div>
+  </div>
+  <div >
+  <p style="margin-top: 40px;">copyright @ 2023 all rights reserved | this template made with <i class="fa-solid fa-heart" style="color: #74C0FC;"></i> Mr Aadi. </p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
